@@ -67,6 +67,7 @@ author:
   avatar           : "EoinProfilePic.jpg"
   bio              : "Cloudy, with a chance of maps."
   location         : "London, UK"
+  map_location     : "https://goo.gl/maps/gTVhEGmVdgx"
   email            : "eb@eb.ie"
   uri              :
   bitbucket        :
