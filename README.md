@@ -1,2 +1,3 @@
-# baileye.github.io
-eb.ie
+# eb.ie repo
+
+[eb.ie](http://eb.ie)
