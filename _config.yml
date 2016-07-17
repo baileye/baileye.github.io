@@ -161,7 +161,6 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - liquid
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -171,7 +170,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - liquid
 
 
 # Archives
