@@ -1,0 +1,104 @@
+---
+layout: single
+title: IoT Everywhere
+author_profile: true
+tags: [development, work, personal]
+---
+<div class="blurb">
+	<p>
+		Over the last 18 months I've ended up with a few different IoT
+		devices
+		<ul>
+			<li>Tessel</li>
+			<li>Particle Photon</li>
+			<li>Intel Edison and Grover Starter Kit Plus</li>
+		</ul>
+		The problem is that I haven't sat down and put in the time to figure
+		out what I want to use them for. The first step to figuring out a use
+		case is figuring out what each devices is capable of.
+	</p>
+	<h2>Device: The Tessel 1</h2>
+	<p>
+		<ul>
+			<li><a href="https://github.com/tessel/t1-docs">Docs</a></li>
+			<li>USB Powered</li>
+			<li>32MB onboard Flash</li>
+			<li>WiFi</li>
+			<li>Light Sensor</li>
+			<li>Microphone Sensor</li>
+			<li>Small controllable LEDs</li>
+			<li>Executes Javascript (node)</li>
+			<li><a href="https://tessel.io/modules#tessel-modules">Other available modules</a></li>
+			<li><a href="https://tessel.hackster.io/">Tessel Community Projects</a></li>
+		</ul>
+	</p>
+	
+	<h2>Device: Particle Photon</h2>
+	<p>
+		<ul>
+			<li><a href="https://docs.particle.io/guide/getting-started/intro/photon/">Docs</a></li>
+			<li>USB Powered</li>
+			<li>WiFi</li>
+			<li>Barometric Pressure Sensor</li>
+			<li>Relative Humidity Sensor</li>
+			<li>Temperature Sensor</li>
+			<li>Breadboard</li>
+			<li>Photoresistor</li>
+			<li>Resistor</li>
+			<li>LED</li>
+			<li><a href="https://github.com/spark">Github Repo</a></li>
+			<li><a href="https://www.hackster.io/pjdecarlo/hands-on-lab-particle-photon-weather-station-in-azure-d89a03">WeatherShield/Photon Lab</a></li>
+		</ul>
+	</p>
+
+	<h2>Device: Intel Edison</h2>
+	<p>
+		<ul>
+			<li><a href="https://software.intel.com/en-us/iot/documentation?value=80494">Docs</a></li>
+			<li>Button</li>
+			<li>Sound Sensor</li>
+			<li>3-Axis Digital Accelerometer</li>
+			<li>Touch Sensor</li>
+			<li>Light Sensor</li>
+			<li>Temperature Sensor</li>
+			<li>LCD RGB Backlight</li>
+			<li>Rotary Angle Sensor</li>
+			<li>Vibration Sensor</li>
+			<li>Buzzer</li>
+			<li>Green, Blue, Red LEDs</li>
+			<li>Stepper Motor</li>
+		</ul>
+	</p>
+
+	<p>
+		My first idea is to build a system that uses a sound sensor to detect my 
+		door buzzer. The sound would be passed to an API that has been trained to 
+		detect the sound pattern, or since it's mostly going to sound identical
+		it is probably possible to detect the pattern on one of the boards. Once
+		the door buzzer is detected I would send an alert -- it could be an email,
+		SMS, or a phone notification.
+	</p>
+	<p>
+		The next step for the above system is to disable the sound buzzer and instead
+		use the light sensor to detect the flashing light. Everything else would be 
+		the same, but this way I don't have to listen to the annoying buzzing sound! 
+	</p>
+	<p>
+		Also useful would be a method to detect if I'm in the flat, if I am and the
+		buzzer has gone off, I do not need to be notified, as I'll have heard the
+		buzzer.
+	</p>
+
+	<h2>Ideas</h2>
+	<p>
+		<dl>
+			<dt>House Alarm System</dt>
+			<dd>Detect motion, door opening, notify to email</dd>
+			<dt>Door Buzzer</dt>
+			<dd>Detect door buzzer sound, notify to phone (email?)</dd>
+			<dt>Front door Unlocker</dt>
+			<dd>Secure endpoint where I can open/close my door</dd>
+		</dl>
+	</p>
+
+</div><!-- /.blurb -->
