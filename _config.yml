@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Cloudy with Eoin"
+title                    : "Code, cloud, c[p]hilosophy"
 title_separator          : "-"
 name                     : "Eoin Bailey"
-description              : "Read about cloud with Eoin. I've also a fondness for maps and geo-stuff."
+description              : "Read about cloud with me, Eoin. I've also a fondness for maps and geo-stuff."
 url                      : "https://eb.ie" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/baileye/baileye.github.io"
